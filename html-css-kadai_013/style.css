@@ -65,7 +65,7 @@ body {
   =================*/
 
     /* 画面幅が767px以下のとき */
-  @media screen  and(max-width:767px) {
+  @media screen and (max-width:767px) {
     body {
         min-width: 375px;
         margin: 0;
@@ -118,11 +118,12 @@ body {
         display: block;
     }   
 
-    #nav-sp a:link
-    #nav-sp a:visited
+    #nav-sp a:link,
+    #nav-sp a:visited,
     #nav-sp a:active {
         color: #ffffff;
     }
+
     #nav-sp a:hover {
         color: #ffffff;
         text-decoration: underline;
